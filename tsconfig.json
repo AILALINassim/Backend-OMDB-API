@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      // Autres options de compilation
+    },
+    // Autres propriétés de configuration
+  }
