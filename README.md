@@ -30,6 +30,8 @@ L'application utilise également des middlewares pour parser le corps de la requ
 
 * GET /pirates-of-the-caribbean : Cette route récupère la liste des films de la série "Pirates des Caraïbes" depuis l'API OMDB et stocke les données dans une feuille de calcul Google Sheet.
 
+Le Google Sheet en question: https://docs.google.com/spreadsheets/d/1HR4Jc-S4hd_-fz_k4UKew6MHO12zrROtXih8TutYuqQ/edit#gid=0
+
 ## Hébergement
 
 Il conviendrait d'utiliser Docker pour faciliter le déploiement et les mises à jour mais le projet peut être déployé sur n'importe quelle plateforme d'hébergement de serveurs Node.js telle que Vercel.
