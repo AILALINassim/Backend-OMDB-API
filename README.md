@@ -32,6 +32,8 @@ L'application utilise également des middlewares pour parser le corps de la requ
 
 Le Google Sheet en question: https://docs.google.com/spreadsheets/d/1HR4Jc-S4hd_-fz_k4UKew6MHO12zrROtXih8TutYuqQ/edit#gid=0
 
+Etant donné qu'il n'est question que d'un backend, on peut utiliser Postman pour réaliser les tests en incluant dans les paramètres "Headers" une Key "Authorization" avec la valeur "Brand" (mot de passe qui est dans les variables d'environnement).
+
 ## Hébergement
 
 Il conviendrait d'utiliser Docker pour faciliter le déploiement et les mises à jour mais le projet peut être déployé sur n'importe quelle plateforme d'hébergement de serveurs Node.js telle que Vercel.
